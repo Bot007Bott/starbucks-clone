@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+.headerleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.headerleft img{
+    width: 60px;
+    height: 60px;
+    margin-left: 8%;
+}
+.headerleft a{
+    color: black;
+    margin-left: 4%;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.headerleft a:hover{
+    color: #00704A;
+}
+.headerright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.headerright a{
+    color: black;
+    margin-right: 3%;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#location {
+    margin-right: 15%;
+}
+#location:hover{
+    color: #00704A;
+}
+#btn{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+}
+#btn:hover{
+    background-color: #00704A;
+    color: white;
+}
+.main-content {
+    margin-top: 40px;
+}
+.box-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: #36472E;
+    margin-bottom: 30px;
+}
+.box1left{
+    width: 50%;
+}
+.box1right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box1right h1{
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1right p{
+    text-align: center;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1right a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    font-weight: 500;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1right a:hover{
+    background-color: white;
+    color: #36472E;
+    font-weight: 600;
+}
+.box1left img{
+    max-height: 600px;
+    width: 100%;
+}
+
+.box2{
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: #36472E;
+    margin-bottom: 30px;
+}
+.box2left{
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+.box2right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.box2right h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2right p{
+    color: white;
+    font-size: 17px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2right a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    font-weight: 500;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2right a:hover{
+    background-color: white;
+    color: #36472E;
+    font-weight: 600;
+}
+.box2left img{
+    width: 100%;
+    max-height: 600px;
+}
+.textbelowbox{
+    width: 60%;
+    margin: auto;
+}
+.textbelowbox p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropdownMenu{
+    width: 100%;
+    height: 430px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    margin-top: 30px;
+    transition: height 0.3s ease;
+}
+.accordion-button:focus {
+    box-shadow: none; /* Removes the blue outline */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important; /* Removes the blue background */
+    color: inherit; /* Keeps the default text color */
+    box-shadow: none;
+}
+
+.accordion-button {
+    padding: 30px; /* Makes the button bigger */
+    font-size: 18px; /* Increases text size */
+    border: none; /* Removes the border */
+}
+
+.accordion-item {
+    border: none; /* Removes the border between accordion items */
+}
+
+#dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#dropdown a{
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    font-weight: 500;
+}
+
+#dropdown a:hover{
+    color: black;
+}
+
+.iconMedia {
+    width: 95%;
+    margin: auto;
+    height: 70px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    transition: margin-top 0.3s ease;
+    text-align: center;
+}
+
+.iconMedia a>i{
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    color: black;
+    transition: 0.5s all;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.iconMedia a>i:hover {
+    font-size: 32px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.endpage {
+    width: 93%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.endpage a,p{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s all;
+}
+
+.endpage a:hover{
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+/*media query for ipad*/
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px;
+    }
+    .headerleft, .headerright {
+        width: 100%;
+    }
+    .headerright {
+        margin-top: 10px;
+    }
+    .box1right h1{
+        font-size: 28px;
+    }
+    .box1right p{
+        font-size: 15px;
+    }
+    .box1right a{
+        font-size: 13px;
+        width: 100px;
+        height: 30px;
+    }
+    .box2left{
+        width: 50%;
+        display: grid;
+        place-items: center;
+    }
+    .box2left img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .box2right h1{
+        font-size: 21px;
+    }
+    .box2right p{
+        font-size: 15px;
+    }
+    .box2right a{
+        font-size: 13px;
+        width: 100px;
+        height: 30px;
+    }
+    .textbelowbox{
+        width: 90%;
+        margin: auto;
+    }
+    .textbelowbox p{
+        font-size: 12px;
+    }
+    .accordion-button b{
+        font-size: 15px;
+    }
+    .accordion-body a{
+        font-size: 12px;
+    }
+}
+/*media query for iphone*/
+@media screen and (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px;
+    }
+    .headerleft, .headerright {
+        width: 100%;
+        justify-content: center;
+    }
+    .headerright {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .box1{
+        flex-direction: column;
+    }
+    .box1left{
+        width: 100%;
+    }
+    .box1right{
+        width: 100%;
+        padding: 25px;
+    }
+    .box2{
+        flex-direction: column;
+    }
+    .box2left{
+        width: 100%;
+    }
+    .box2right{
+        width: 100%;
+    }
+    .textbelowbox{
+        width: 100%;
+        margin: auto;
+    }
+    .textbelowbox p{
+        font-size: 12px;
+    }
+}
